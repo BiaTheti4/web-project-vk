@@ -64,48 +64,85 @@
         </div>
     </div>
     <div class="stories">
-        <b>Stories</b>
+        <b>сообщества</b>
     </div>
-    <div class="story_photo">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
+    <div class="line_friends"></div>
 
+    <div class="news_nadp"></div>
 
+    <div class="friend_list">
 
-    </div>
-    <div class="news_nadp"><B><B></div>
-    <div class="news">
-        <div class="post_1">
-            <img src="media\danil.jpg" class="post_photo_1"><img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-
-        </div>
-        <div class="post_2"><img src="media\danil.jpg" class="post_photo_2">
-            <img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-        </div>
-        <div class="post_3"><img src="media\danil.jpg" class="post_photo_3">
-            <img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
+        <div class="communities">
+            <img src="https://sun9-44.userapi.com/c621703/v621703289/8a35e/nQBkAsOxz0s.jpg" class="photo_communities" height="30px " width="30px">
+            <div class="info_communities"><b>сливы по кд<b></div>
+            <br>
+            <div class="sub_communities">123123123 подписчиков</div>
         </div>
 
 
+        <div class="line_friends"></div>
+
+        <div class="communities">
+            <img src="https://sun9-44.userapi.com/c621703/v621703289/8a35e/nQBkAsOxz0s.jpg" class="photo_communities" height="30px " width="30px">
+            <div class="info_communities"><b>сливы по кд<b></div>
+            <br>
+            <div class="sub_communities">123123123 подписчиков</div>
+        </div>
+
+
+        <div class="line_friends"></div>
+
+        <div class="communities">
+            <img src="https://sun9-44.userapi.com/c621703/v621703289/8a35e/nQBkAsOxz0s.jpg" class="photo_communities" height="30px " width="30px">
+            <div class="info_communities"><b>сливы по кд<b></div>
+            <br>
+            <div class="sub_communities">123123123 подписчиков</div>
+        </div>
+
+
+        <div class="line_friends"></div>
+
+        <div class="communities">
+            <img src="https://sun9-44.userapi.com/c621703/v621703289/8a35e/nQBkAsOxz0s.jpg" class="photo_communities" height="30px " width="30px">
+            <div class="info_communities"><b>сливы по кд<b></div>
+            <br>
+            <div class="sub_communities">123123123 подписчиков</div>
+        </div>
+
+
+        <div class="line_friends"></div>
+
+
+
+
+        <div class="right_bar">
+            <li class="text_bar">Мои сообщества:<div class="text"> 1</div></li>
+            <li class="text_bar">события: <div class="text">223</div></li>
+            <li class="text_bar">найти сообщества:<div class="text"> 334</div></li>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </div>
+
+
+
+</div>
 
 </div>
 

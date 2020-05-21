@@ -55,7 +55,7 @@
         <div class="d3">
             <form>
                 <input type="text" placeholder="Искать здесь...">
-                <button type="submit"><img src="https://image.flaticon.com/icons/svg/2089/2089805.svg" class="search_main" type="submit"></button>
+                <button type="submit"><img src="https://image.flaticon.com/icons/svg/2089/2089805.svg"  type="submit" class="search_main"></button>
             </form>
         </div>
         <div class="header_icons">
@@ -64,50 +64,67 @@
         </div>
     </div>
     <div class="stories">
-        <b>Stories</b>
-    </div>
-    <div class="story_photo">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-
-
-
-    </div>
-    <div class="news_nadp"><B><B></div>
-    <div class="news">
-        <div class="post_1">
-            <img src="media\danil.jpg" class="post_photo_1"><img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-
-        </div>
-        <div class="post_2"><img src="media\danil.jpg" class="post_photo_2">
-            <img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-        </div>
-        <div class="post_3"><img src="media\danil.jpg" class="post_photo_3">
-            <img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-        </div>
-
-
-
+        <b>messages</b>
+        <br>
     </div>
 
+
+
+
+    <div class="chat_full">
+
+
+
+        <div class="chat_header">
+            <div class="chat_header_back">
+                <a href="messages.html"> back</a>
+            </div>
+            <div class="chat_header_name">
+                Данил Лихачев
+            </div>
+            <div class="chat_header_search">
+                <img src="https://image.flaticon.com/icons/svg/622/622669.svg" class="search_chat">
+            </div>
+
+        </div>
+
+        <div class="chat_messages">
+
+            <div class="box_message_1">
+                123
+            </div>
+            <div class="box_message_2">
+                123
+            </div>
+            <div class="box_message_2">
+                123
+            </div>
+
+        </div>
+        <div class="bottom_chat">
+
+            <img src="https://image.flaticon.com/icons/svg/646/646148.svg"  class="photo_chat_skr">
+            <input type="text" placeholder="Ваше сообщение" class="chat_input">
+            <img src="https://image.flaticon.com/icons/svg/565/565340.svg"   class="photo_chat_send">
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <b>
+        <div class="right_bar_chat">
+            <li class="text_bar">все сообщения:<div class="text"> 1</div></li>
+            <li class="text_bar">непрочитанные: <div class="text">223</div></li>
+            <li class="text_bar">сохраненные:<div class="text"> 334</div></li>
+        </div>
+    </b>
 </div>
 
+
+</div>
 </body>
 </html>

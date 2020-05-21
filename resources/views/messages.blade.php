@@ -64,50 +64,89 @@
         </div>
     </div>
     <div class="stories">
-        <b>Stories</b>
+        <b>messages</b>
     </div>
-    <div class="story_photo">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
-        <img src="media\danil.jpg" class="photo_story">
 
 
 
-    </div>
-    <div class="news_nadp"><B><B></div>
-    <div class="news">
-        <div class="post_1">
-            <img src="media\danil.jpg" class="post_photo_1"><img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
 
-        </div>
-        <div class="post_2"><img src="media\danil.jpg" class="post_photo_2">
-            <img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-        </div>
-        <div class="post_3"><img src="media\danil.jpg" class="post_photo_3">
-            <img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
+
+
+    <div class="line_message"></div>
+
+    <div class="news_nadp"></div>
+
+    <div class="friend_list">
+
+        <div class="Friends">
+            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
+            <div class="info_friend"><b>Лихачев Данил<b></div>
+            <br>
+            <div class="message_text">типа сообщение</div>
         </div>
 
 
+        <div class="line_message"></div>
+
+
+        <div class="Friends">
+            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
+            <div class="info_friend"><b>Лихачев Данил<b></div>
+            <br>
+            <div class="message_text">write message</div>
+        </div>
+
+
+        <div class="line_message"></div>
+
+        <div class="Friends">
+            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
+            <div class="info_friend"><b>Лихачев Данил<b></div>
+            <br>
+            <div class="message_text"><u>типа сообщение</u></div>
+        </div>
+
+
+        <div class="line_message"></div>
+
+
+        <div class="Friends">
+            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
+            <div class="info_friend"><b>Лихачев Данил<b></div>
+            <br>
+            <div class="message_text">типа сообщение</div>
+        </div>
+
+
+        <div class="line_message"></div>
+
+        <div class="Friends">
+            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
+            <div class="info_friend"><b>Лихачев Данил<b></div>
+            <br>
+            <div class="message_text">типа сообщение</div>
+        </div>
+
+
+        <div class="line_message"></div>
+
+
+
+
+
+
+
+
+
+        <div class="right_bar">
+            <li class="text_bar">все сообщения:<div class="text"> 1</div></li>
+            <li class="text_bar">непрочитанные: <div class="text">223</div></li>
+            <li class="text_bar">сохраненные:<div class="text"> 334</div></li>
+        </div>
+
+
+
 
     </div>
-
-</div>
-
 </body>
 </html>
