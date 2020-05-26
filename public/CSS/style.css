@@ -11,7 +11,7 @@ A:visited{
 
 .full_page{
 	max-width: 80%;
-  height: 42px; 
+  height: 42px;
 	margin-left: 20%;
 }
 
@@ -37,7 +37,7 @@ text-align: center;
 margin-left:4.5%;
 margin-right:2%;
 padding-left: 5%;
-float: left; 
+float: left;
 font-family: tahoma;
 font-size: 11pt;
 color: #605e61;
@@ -64,7 +64,7 @@ text-align: center;
 margin-left:2%;
 margin-right:2%;
 padding-left: 5%;
-float: left; 
+float: left;
 border-left: 1px solid #cccccc;
 font-family: tahoma;
 font-size: 11pt;
@@ -82,7 +82,7 @@ text-align: center;
 margin-left:2%;
 margin-right:2%;
 padding-left: 5%;
-float: left; 
+float: left;
 border-left: 1px solid #cccccc;
 font-family: tahoma;
 font-size: 11pt;
@@ -102,22 +102,22 @@ color: #000;
 	height: 100%;
     float: left;
     left: 0%;
-    top: 0; 
+    top: 0;
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
 
 }
 .header{
 	position: relative;
 	margin-left: 30%;
-	margin-top:-30px; 
+	margin-top:-30px;
 	font-family: tahoma ;
 }
 /*овка боковой панели*/
 li{
 color: #605e61;
- 
+
 	padding-top: 10px;
-	margin-top:10px; 
+	margin-top:10px;
 	font-family: tahoma ;
   font-size: 11pt;
 	list-style-type: none;
@@ -147,7 +147,7 @@ margin-right: 10px;
 }
 .line{
 	border-top: 1px solid #cccccc;
-	margin-left:10%;  
+	margin-left:10%;
 }
 .under_photo{
 	text-align: center;
@@ -157,7 +157,7 @@ margin-right: 10px;
 }
 .side_bar_bottom{
   width: 80%;
-  margin-left:12%; 
+  margin-left:12%;
 
 }
 
@@ -255,7 +255,7 @@ margin-top: 11px;
 .header_1{
   display: block;
   height:50px;
-  max-width: 100%; 
+  max-width: 100%;
 
 
 }
@@ -274,7 +274,7 @@ text-align:center;
 line-height: 200%;
 color: white;
 font-family: tahoma;
-margin-left:75%; 
+margin-left:75%;
 margin-top: -55%;
 border-radius: 10px;
 }
@@ -299,7 +299,7 @@ float: left;
 border: 2px solid black;
 }
 .news_nadp{
-  margin-left:2%; 
+  margin-left:2%;
   margin-top: 5%;
   font-family: tahoma;
 }
@@ -314,22 +314,22 @@ margin-left: 5%;
   width: 26%;
   height: 100%;
   float: left;
-  margin-top: 1%; 
+  margin-top: 1%;
 }
 .post_2{
   width: 26%;
    height: 100%;
-  float: left; 
+  float: left;
   margin-left: 5%;
-    margin-top: 1%; 
+    margin-top: 1%;
 
 }
 .post_3{
   width: 26%;
    height: 100%;
-  float: left; 
+  float: left;
   margin-left: 5%;
-    margin-top: 1%; 
+    margin-top: 1%;
     margin-right: 10%;
 }
 .post_photo_1{
@@ -411,10 +411,10 @@ float: left;
 
 
  border: 2px solid white;
-  
+
  height:60px;
 width: 60px;
-border-radius:8px; 
+border-radius:8px;
 float: left;
 
 }
@@ -451,8 +451,8 @@ padding-left: 5px;
 height: 30%;
 }
 .text_bar{
-font-family: tahoma; 
-position: relative; 
+font-family: tahoma;
+position: relative;
 padding-top: 30px;
 
 }
@@ -476,10 +476,10 @@ padding-top: 30px;
 
 }
 .photo_communities{
-border: 2px solid black; 
+border: 2px solid black;
 height:60px;
 width: 60px;
-border-radius:8px; 
+border-radius:8px;
 float: left;
 
 
@@ -500,7 +500,7 @@ margin-top: 2%;
   border-top: 1px solid #cccccc;
   margin-left: -10%;
   width: 108.5%;
-  padding: 2%; 
+  padding: 2%;
   float: left;
   margin-top: 2%;
 }
@@ -547,10 +547,10 @@ float: left;
 
 
  border: 2px solid white;
-  
+
  height:30px;
 width: 30px;
-border-radius:8px; 
+border-radius:8px;
 float: left;
 
 }
@@ -617,13 +617,13 @@ color: black;
 .chat_header_name{
   float: left;
   height: 100%;
-  margin-left:45%; 
+  margin-left:45%;
   margin-top: -1.85%;
 }
 .chat_header_search{
    float: left;
   height: 100%;
-  margin-left:96%; 
+  margin-left:96%;
   margin-top: -2.6%;
 }
 .chat_input{
@@ -640,7 +640,7 @@ color: black;
 .bottom_chat{
   width: 100%;
   height: 100%;
-  margin-top:75%; 
+  margin-top:75%;
   background: #dbdbdb;
   border-radius: 8px;
 }

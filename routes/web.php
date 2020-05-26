@@ -13,39 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/chat', function () {
-    return view('chat');
-});
-
-Route::get('/communities', function () {
-    return view('communities');
-});
-
-Route::get('/friends', function () {
-    return view('friends');
-});
-
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/messages', function () {
-    return view('messages');
-});
-
-Route::get('/music', function () {
-    return view('music');
-});
-
-Route::get('/news', function () {
-    return view('news');
-});
-
-Route::get('/register', function () {
-    return view('register');
-});
-
+Route::get('/', 'ApiController@welcomeAction');
+Route::get('/news', 'ApiController@newsAction');
+Route::get('/chat', 'ApiController@chatAction');
+Route::get('/communities', 'ApiController@communitiesAction');
+Route::get('/friends', 'ApiController@friendsAction');
+Route::get('/login', 'ApiController@loginAction');
+Route::get('/messages', 'ApiController@messagesAction');
+Route::get('/music', 'ApiController@musicAction');
+Route::get('/register', 'ApiController@registerAction');
