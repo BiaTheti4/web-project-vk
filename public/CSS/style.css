@@ -266,18 +266,6 @@ position: relative;
 margin-right: 10%;
 margin-top: -2.8%;
 }
-.new_post{
-width: 140%;
-height: 38px;
-background: linear-gradient(-45deg,red,orange);
-text-align:center;
-line-height: 200%;
-color: white;
-font-family: tahoma;
-margin-left:75%;
-margin-top: -55%;
-border-radius: 10px;
-}
 .stories{
   font-family: tahoma;
   margin-left: 2%;
@@ -296,7 +284,7 @@ height: 80px;
 width: 80px;
 border-radius: 63px;
 float: left;
-border: 2px solid black;
+border: 2px solid white;
 }
 .news_nadp{
   margin-left:2%;

@@ -12,7 +12,7 @@
         <div class="d3">
             <form>
                 <input type="text" placeholder="Искать здесь...">
-                <button type="submit"><img src="https://image.flaticon.com/icons/svg/2089/2089805.svg" class="search_main" type="submit"></button>
+                <button type="submit"><img src="media\search.svg" class="search_main" type="submit"></button>
             </form>
         </div>
         <div class="header_icons">
