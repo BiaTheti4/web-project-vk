@@ -1,6 +1,6 @@
 <html>
 <body>
-<link rel="stylesheet" type="text/css" href="CSS\style.css">
+
 @extends('layouts.header')
 <div class="full_page">
     <div class="header_1">

@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-    <link rel="stylesheet" type="text/css" href="CSS\style.css">
-<body>
 
 @extends('layouts.header')
 
