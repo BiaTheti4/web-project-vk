@@ -22,3 +22,4 @@ Route::get('/login', 'ApiController@loginAction');
 Route::get('/messages', 'ApiController@messagesAction');
 Route::get('/music', 'ApiController@musicAction');
 Route::get('/register', 'ApiController@registerAction');
+Route::get('/getArticles','ApiController@getArticles');
