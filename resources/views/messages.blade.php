@@ -1,5 +1,6 @@
 
 @extends('layouts.header')
+</b>
 
 <div class="full_page">
     <div class="header_1">
@@ -15,71 +16,40 @@
         </div>
     </div>
     <div class="stories">
+
         <b>messages</b>
+
     </div>
 
 
 
+    <br>
 
 
-
+    @foreach($messages as $message)
     <div class="line_message"></div>
 
-    <div class="news_nadp"></div>
+
 
     <div class="friend_list">
-
+<a href="http://127.0.0.1:8000/chat">
         <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил<b></div>
-            <br>
-            <div class="message_text">типа сообщение</div>
+
+
+                <img src="{{$message->user->img_url}}" class="photo_friend" height="30px " width="30px">
+                <div class="info_friend"><b>{{$message->user->login}}<b></div>
+                <br>
+                <div class="message_text">{{$message->message}}</div>
+
         </div>
-
-
+</a>
+        @endforeach
         <div class="line_message"></div>
 
 
-        <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил<b></div>
-            <br>
-            <div class="message_text">write message</div>
-        </div>
 
 
-        <div class="line_message"></div>
 
-        <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил</b></div>
-            <br>
-            <div class="message_text"><u>типа сообщение</u></div>
-        </div>
-
-
-        <div class="line_message"></div>
-
-
-        <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил</b></div>
-            <br>
-            <div class="message_text">типа сообщение</div>
-        </div>
-
-
-        <div class="line_message"></div>
-
-        <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил</b></div>
-            <br>
-            <div class="message_text">типа сообщение</div>
-        </div>
-
-
-        <div class="line_message"></div>
 
 
 
@@ -101,3 +71,4 @@
     </div>
 </body>
 </html>
+

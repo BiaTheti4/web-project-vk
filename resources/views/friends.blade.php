@@ -20,73 +20,24 @@
     <div class="stories">
         <b>Friends</b>
     </div>
+
+    <br>
     <div class="line_friends"></div>
 
-    <div class="news_nadp"></div>
+
 
     <div class="friend_list">
-
+@foreach($friends as $friends)
         <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил<b></div>
+            <img src="{{$friends->img_url}}" class="photo_friend" height="30px " width="30px">
+            <div class="info_friend"><b>{{$friends->login}}<b></div>
 
             <div class="write_message"><u>write message<u></div>
         </div>
 
 
         <div class="line_friends"></div>
-
-
-        <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил<b></div>
-            <div class="write_message"><u>write message<u></div>
-        </div>
-
-
-        <div class="line_friends"></div>
-
-        <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил<b></div>
-            <div class="write_message"><u>write message<u></div>
-        </div>
-
-
-        <div class="line_friends"></div>
-
-
-        <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил<b></div>
-
-            <div class="write_message"><u>write message<u></div>
-        </div>
-
-
-        <div class="line_friends"></div>
-
-        <div class="Friends">
-            <img src="media\danil.jpg" class="photo_friend" height="30px " width="30px">
-            <div class="info_friend"><b>Лихачев Данил<b></div>
-
-            <div class="write_message"><u>write message<u></div>
-        </div>
-
-
-        <div class="line_friends"></div>
-
-
-
-
-
-
-
-
-
-
-
-
+@endforeach
 
 
 

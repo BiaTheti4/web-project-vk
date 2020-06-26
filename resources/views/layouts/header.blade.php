@@ -1,4 +1,5 @@
-
+<html>
+<body>
 </b></b>
     <link rel="stylesheet" type="text/css" href="CSS\style.css">
 
@@ -25,9 +26,9 @@
 
     </div>
     <br>
-    <div class="post">0<br>постов</div>
-    <div class="subs">0<br>подписчиков</div>
-    <div class="sub">0<br>подписок</div>
+    <a href="http://127.0.0.1:8000/"> <div class="post">0<br>постов</div></a>
+    <a href="http://127.0.0.1:8000/friends"><div class="subs">0<br>друзей</div></a>
+    <div class="sub">0<br>подписчиков</div>
     <br>
     <div class="list">
         <ol>
@@ -50,10 +51,6 @@
         </div></li></a>
 </div>
 
-
-
-
-
-</div>
-
+<div class="full_page">
 @yield('sideBar')
+

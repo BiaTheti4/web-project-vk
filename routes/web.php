@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArticleController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,3 +24,13 @@ Route::get('/messages', 'ApiController@messagesAction');
 Route::get('/music', 'ApiController@musicAction');
 Route::get('/register', 'ApiController@registerAction');
 Route::get('/getArticles','ApiController@getArticles');
+Route::get('searchSimple', 'SearchController@index')->name('searchSimple');
+
+Route::get('/search','ApiController@search');
+
+
+Route::get('/auth','authController@auth');
+
+
+
+

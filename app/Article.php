@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Article extends Model
 {
+
+
     protected $fillable = [
         'title', 'description', 'status', 'user_id', 'views_count', 'like_count'
     ];

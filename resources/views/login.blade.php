@@ -6,11 +6,14 @@
 </head>
 <body>
 
-<form class="box" action="http://127.0.0.1:8000/" method="post">
+<form class="box" action="/auth" method="get">
     <h1>Login</h1>
-    <input type="text" name="" placeholder="Username">
-    <input type="password" name="" placeholder="Password">
+    <input type="text" name="login" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
     <input type="submit" name="" value="Login">
+
+
+
 </form>
 
 

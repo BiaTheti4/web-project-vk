@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class ArticleController extends Controller
 //выводит данные из таблицы articles
 {
-    public function show(){
-       dump(Article::all());
+    public function show()
+    {
+       return (Article::all());
     }
 }

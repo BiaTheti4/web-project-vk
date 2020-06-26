@@ -8,27 +8,27 @@ class ApiController extends Controller
 {
     public function welcomeAction(Request $request)
     {
-        return view('welcome');
+        return view('welcome',['welcome'=> (new WelcomeController())->show()]);
     }
     public function newsAction(Request $request)
     {
-        return view('news');
+        return view('news', ['news'=> (new newsController())->show()]);
     }
     public function messagesAction(Request $request)
     {
-        return view('messages');
+        return view('messages', ['messages'=> (new messageController())->show()]);
     }
     public function friendsAction(Request $request)
     {
-        return view('friends');
+        return view('friends', ['friends'=> (new FriendController())->show()]);
     }
     public function communitiesAction(Request $request)
     {
-        return view('communities');
+        return view('communities',['communities'=>(new CommunityController())->show()]);
     }
     public function musicAction(Request $request)
     {
-        return view('music');
+        return view('music',['musics'=>(new MusicController())->show()]);
     }
     public function chatAction(Request $request)
     {
@@ -41,6 +41,11 @@ class ApiController extends Controller
     public function loginAction(Request $request)
     {
         return view('login');
+    }
+
+    public function search(Request $request)
+    {
+
     }
 }
 

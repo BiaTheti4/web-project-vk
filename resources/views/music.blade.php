@@ -27,178 +27,19 @@
 
 
 
-
-
+@foreach($musics as $music)
 
     <div class="line_song"></div>
+
     <div class="song_list">
 
         <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
+            <img src="{{$music->img_url}}" class="song_icon">
+            <div class="song_name"><b>{{$music->title_name}}<b></div>
+            <div class="performer">{{$music->author_name}}</div>
         </div>
 
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/113160/f0174543.a.7749435-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>Иосиф Сталин<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/149669/4a7b7373.a.8412906-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>№666<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/113160/f0174543.a.7749435-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>Иосиф Сталин<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/149669/4a7b7373.a.8412906-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>№666<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/113160/f0174543.a.7749435-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>Иосиф Сталин<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/149669/4a7b7373.a.8412906-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>№666<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/99892/f090f135.a.6714208-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>My love<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/113160/f0174543.a.7749435-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>Иосиф Сталин<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
-
-
-        <div class="line_song"></div>
-
-        <div class="songs">
-            <img src="https://avatars.yandex.net/get-music-content/149669/4a7b7373.a.8412906-1/m1000x1000" class="song_icon">
-            <div class="song_name"><b>№666<b></div>
-            <div class="performer">Auniversed</div>
-        </div>
+    @endforeach
         <div class="line_song"></div>
 
 

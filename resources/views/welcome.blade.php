@@ -1,11 +1,10 @@
-<html>
-<body>
+
 
 @extends('layouts.header')
 <div class="full_page">
     <div class="header_1">
         <div class="d3">
-            <form>
+            <form method="GET">
                 <input type="text" placeholder="Искать здесь...">
                 <button type="submit"><img src="media\search.svg" class="search_main" type="submit"></button>
             </form>
@@ -33,28 +32,15 @@
     </div>
     <b><div class="news_nadp"></B></div>
     <div class="news">
+     @foreach($welcome as $welcomes)
         <div class="post_1">
-            <img src="media\danil.jpg" class="post_photo_1"><img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
+            <img src="{{$welcomes->img_url}}" class="post_photo_1"><img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
             <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
+            <div class="like_com">{{$welcomes->like_count}}</div>
             <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-
+            <div class="like_com">{{$welcomes->comment_count}}</div>
         </div>
-        <div class="post_2"><img src="media\danil.jpg" class="post_photo_2">
-            <img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-        </div>
-        <div class="post_3"><img src="media\danil.jpg" class="post_photo_3">
-            <img src="media\danil.jpg" class="little_photo"><div class="tag_name">@Daniel_likhachev</div>
-            <img src="https://image.flaticon.com/icons/svg/1077/1077035.svg" class="post_like">
-            <div class="like_com">123</div>
-            <img src="https://image.flaticon.com/icons/svg/2462/2462719.svg" class="post_like">
-            <div class="like_com">123</div>
-        </div>
+@endforeach
 
 
 
